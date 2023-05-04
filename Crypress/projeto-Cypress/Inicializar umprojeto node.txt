@@ -1,0 +1,54 @@
+Inicializar umprojeto node
+
+npm init --yes
+
+Instalar o Cypress
+
+npm install -D cypress@12.5.0
+
+Abrir o cypress 
+
+npx cypress open
+
+aplicação
+
+https://devfinance-agilizei.netlify.app/
+
+before()
+after()
+beforeEach()
+afterEach()
+
+describe()
+
+it()
+
+
+cy.visit()
+cy.get()
+cy.get().type()
+cy.contains()
+cy.contains().click()
+cy.contains.parent()
+cy.contains.parent().find()
+cy.contains.parent().find().click
+cy.contains().siblings()
+cy.contains().siblings().children()
+cy.contains().siblings().children().find()
+cy.contains().siblings().children().find().click()
+
+
+Assertions:
+https://docs.cypress.io/guides/references/assertions
+
+
+
+Ctrl+f
+
+modo haddles
+
+//faz os mesmos testes por linha e comando  
+npx cypres run
+
+command line:
+https://docs.cypress.io/guides/guides/command-line#docusaurus_skipToContent_fallback

@@ -1,0 +1,46 @@
+Fonte de conhecimento:
+https://www.youtube.com/@Agilizei
+
+Tudo sobre o Cypress em:
+https://docs.cypress.io/guides/overview/why-cypress
+
+
+O que é o  Cypress?
+
+
+ele é um framework de testes para aplicações web, de código aberto e de fácil configuração.
+
+
+
+Quais testes podemos realizar com ele ?
+
+-End-to-End
+-Interface de Usuário
+-API’s
+-Componentes
+-Unidade
+
+
+Principais comandos do Cypress
+Para facilitar o uso do framework, listarei agora alguns dos principais comandos do Cypress.
+
+Para encontrar elementos em tela:
+
+GET: cy.get(‘[data-cy=name]’)
+CONTAINS: cy.contains(“Cadastrar”)
+Para interagir com elementos de tela:
+
+Type: utilizado para escrever
+cy.get(‘[data-cy=name]’).type(“Joaozinho”);
+Click: utilizado para clicar no elemento selecionado
+cy.get(locators.CADASTRO.btnCadastrar).click()
+Selecionar: utilizado para selecionar um elemento
+cy.get(Loc.CADASTRO.campoUF).select(“RS”);
+Check/Uncheck: utilizado para aplicar o check
+cy.get(‘[type=”checkbox”]’).check()
+Asserções para nossos testes:
+
+Should
+cy.get(locators.MENU.nomeUsuarioLogado).should(“contain.text”, “Joaozinho”);
+Expect
+expect(response.body).has.property(“id”);

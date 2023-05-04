@@ -1,0 +1,41 @@
+Fonte de conhecimento:
+https://www.youtube.com/playlist?list=PL0nYAInGtru1VTG7-q0xIg45TGeUry3Lc
+
+
+documentação on ruby:
+
+
+asserções == verificar uma condição que o desenvolvedor supõe que seja verdadeira em determinado ponto.
+
+O que é o RSPEC?
+
+Compara resultado obtido com o resultado esperado atraves de asserções.
+
+
+https://rubygems.org/
+
+instalar todas as dependecias 
+
+-baixar o ruby
+-criar uma pasta, crie o arquivo Gemfile
+-inserir comando : // dependecias das libs 
+source "https://rubygems.org/" 
+-instalar o bundler:
+gem install bundler
+
+
+
+O que são Design Patterns?
+
+
+Padão de projetos, nada mais é do que um  padrao de como serão feitas as configurações do projeto,
+ utilizado para facilitar a codificação e na manutenção de novos scripts 
+
+
+melhores paginas paratreinar automação de teste são as paginas de login  
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+-Para pesquisar todas a colunas e linhas da tabela:
+
+Select *  from [tabela]
+
+-Para pesquisar algumas colunas em especial da tabela
+
+Select [coluna1, coluna2]  from [tabela]
+
+-Para pesquisar trazer apenas uma ou mais linhas
+
+Select * from [tabela] where [coluna] =  [tipo de dado]
+
+-Para ordenar um coluna de forma acendete (do maior para o menor)
+podendo inserir mais colunas 
+
+Select * from [tabela] where [coluna] =  [tipo de dado] order by [coluna]
+
+-Para ordenar um coluna de forma descendente(do  menor para o maior)
+
+
+Select * from [tabela] where [coluna] =  [tipo de dado] order by [coluna] desc

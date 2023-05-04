@@ -1,0 +1,43 @@
+Fonte de Conhecimento:
+https://www.youtube.com/playlist?list=PLmMxPWmzYRGefl2OP-85OwJr7HRcO4rC8
+
+
+doc: https://jestjs.io/pt-BR/
+
+O que é o Jest?
+
+"Jest é um poderoso framework de Testes em JavaScript com foco na simplicidade"
+
+Por que usar?
+
+"Automatização de teste visando a minimização de erros"
+ 
+
+
+
+similar ao cypress
+uma expecie de prova real 
+
+https://www.youtube.com/watch?v=uRTKUjeua3g
+fazer os mesmos testes desse cara 
+
+mocara funções
+
+estudar por aqui 
+https://www.youtube.com/watch?v=whCG5eTXU2E&list=PLmMxPWmzYRGefl2OP-85OwJr7HRcO4rC8
+
+
+
+para clonar um repositório do github, basta 
+
+-criar uma pasta
+
+-acessa a pasta com o gitbash
+LS
+cd [nome da pasta]
+
+-rodar comando:
+
+git clone [url_repositorio]
+
+
